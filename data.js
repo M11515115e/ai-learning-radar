@@ -1,6 +1,6 @@
 window.KNOWLEDGE_RADAR_DATA = {
-  "generatedAt": "2026-08-07T18:11:19+00:00",
-  "count": 2,
+  "generatedAt": "2026-08-07T18:45:04+00:00",
+  "count": 3,
   "notes": [
     {
       "id": "topics/ai-learning-radar-guide.md",
@@ -80,6 +80,50 @@ window.KNOWLEDGE_RADAR_DATA = {
       "verifiedAt": "2026-08-07T17:49:21+00:00",
       "coverImage": "assets/public/source-images/2026-08-07-facebook-codex-sol-goal-post.png",
       "articleUrl": "articles/2026-08-07-facebook-codex-sol-goal-ideas.html"
+    },
+    {
+      "id": "articles/2026-08-07-threads-visual-syntax-ugc.md",
+      "title": "Threads｜一次開箱延伸成六款 AI UGC 分鏡的提示詞鎖定流程",
+      "date": "2026-08-07",
+      "originalUrl": "https://www.threads.com/share/E1gnn1keV/",
+      "source": "Threads 公開貼文",
+      "author": "visual_syntax.ai",
+      "topics": [
+        "AI UGC",
+        "image-generation",
+        "storyboard",
+        "prompt-engineering",
+        "content-marketing"
+      ],
+      "tags": [
+        "Threads",
+        "開箱",
+        "連續分鏡",
+        "角色一致性",
+        "產品一致性",
+        "Reels",
+        "短片廣告"
+      ],
+      "importance": "high",
+      "status": "public-reviewed",
+      "lowInformation": false,
+      "summary": "visual_syntax.ai 示範如何先固定創作者、服裝、場景、包裝、產品與品牌色，再逐鏡只改動動作、鏡位、鏡頭與表情，將一次開箱延伸成六個連續的 AI UGC 分鏡。",
+      "keyPoints": [
+        "先建立可重用的創作者與產品鎖定欄位",
+        "六個分鏡依序涵蓋鉤子、俯視拆盒、產品揭示、第一身使用、細節特寫與反應收尾",
+        "不要把六張圖片當作獨立生成，應先建立主鏡與產品主視覺再逐鏡延伸",
+        "貼文是工作流程示範，不代表任何特定 AI 模型已被證實支援完整一致性"
+      ],
+      "actionableInsights": [
+        "先寫一份角色、服裝、場景、包裝與產品的鎖定表",
+        "先生成中性主鏡與產品主視覺，再複製到各分鏡",
+        "每鏡只修改一組變數並以分鏡表檢查連續性",
+        "發布前檢查品牌、包裝文字、手部、產品形狀與 CTA 是否跨鏡一致"
+      ],
+      "verificationStatus": "partially-verified",
+      "verifiedAt": "2026-08-07",
+      "coverImage": "assets/public/source-images/2026-08-07-threads-visual-syntax-ugc-cover.jpg",
+      "articleUrl": "articles/2026-08-07-threads-visual-syntax-ugc.html"
     }
   ]
 };
