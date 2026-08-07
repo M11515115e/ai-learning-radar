@@ -1,5 +1,5 @@
 window.KNOWLEDGE_RADAR_DATA = {
-  "generatedAt": "2026-08-07T16:30:07+00:00",
+  "generatedAt": "2026-08-07T17:50:58+00:00",
   "count": 2,
   "notes": [
     {
@@ -8,6 +8,7 @@ window.KNOWLEDGE_RADAR_DATA = {
       "date": "2026-08-07T20:00:00+08:00",
       "originalUrl": "",
       "source": "system",
+      "author": "",
       "topics": [
         "knowledge-management",
         "ai-learning"
@@ -29,44 +30,50 @@ window.KNOWLEDGE_RADAR_DATA = {
       "actionableInsights": [
         "分享連結時可附上用途、重要性或公開性",
         "每週回顧新內容並補上跨主題連結"
-      ]
+      ],
+      "verificationStatus": "not-reviewed",
+      "verifiedAt": "",
+      "coverImage": "",
+      "articleUrl": "articles/ai-learning-radar-guide.html"
     },
     {
       "id": "articles/2026-08-07-facebook-codex-sol-goal-ideas.md",
       "title": "Facebook｜Codex 額度重置前的 Sol 與 /goal 任務靈感清單",
-      "date": "2026-08-07T16:29:12+00:00",
-      "originalUrl": "https://www.facebook.com/share/p/1CuXNQBXfk/?mibextid=wwXIfr",
-      "source": "Facebook 公開小組｜Codex 中文社群",
+      "date": "2026-08-07T17:49:21+00:00",
+      "originalUrl": "https://www.facebook.com/groups/1713764039757273/permalink/1794884368311906/",
+      "source": "Facebook 公開小組",
+      "author": "輝堂 HUI KAI",
       "topics": [
         "Codex",
-        "Sol",
         "AI coding agent",
-        "goal-oriented agents",
-        "productivity"
+        "生產力"
       ],
       "tags": [
-        "Facebook",
-        "prompt ideas",
-        "project audit",
-        "performance",
-        "life planning"
+        "Sol",
+        "/goal",
+        "/imagegen",
+        "任務規劃",
+        "配額管理",
+        "prompt engineering"
       ],
       "importance": "medium",
-      "status": "archived",
+      "status": "reviewed",
       "lowInformation": false,
-      "summary": "貼文建議在 Codex 使用額度即將重置前，以 Sol 搭配 /goal 執行高成本的創作、專案稽核、效能改善、生活規劃、產品發想與學習課程設計；但應將任務縮小並設檢查點，避免額度耗盡時仍沒有可交付成果。",
+      "summary": "這篇公開貼文把 Codex 的剩餘額度視為一段有限的工作時窗，提出用 /goal 拆解專案稽核、效能改善、產品發想、人生情境模擬與課程設計等任務；其中可直接驗證的是官方確實列出 /goal、/usage 與 gpt-5.6-sol，/imagegen 則不能當作標準內建指令，需視環境或自訂 skill 而定。",
       "keyPoints": [
-        "用 /imagegen 產生 3D 世界靈感圖，再以 /goal 嘗試打造一致風格的遊戲。",
-        "可讓 agent 稽核工作區專案、未完成工作、電腦檔案，以及 Codex skills/actions。",
-        "效能改善任務應先建立基準、找出瓶頸，再比較改善前後結果。",
-        "其他構想包含 UI 動畫優化、人生情境模擬、生活作息設計、產品點子評分與互動式課程。",
-        "留言提醒：把額度用完不等於長任務一定完成，任務範圍與中間交付物仍很重要。"
+        "把大型任務改寫成有範圍、有檢查點、有可驗證成果的 /goal。",
+        "貼文列出程式稽核、App 改善、檔案整理、生活情境推演、產品點子與課程設計等使用方向。",
+        "官方文件可確認 /goal、/usage 與 gpt-5.6-sol 的存在；貼文中的 /imagegen 並未在官方 slash commands 清單中出現。"
       ],
       "actionableInsights": [
-        "優先把剩餘額度投入有明確輸出與可驗證標準的任務，而不是單純追求耗盡額度。",
-        "大型 /goal 任務拆成盤點、排序、執行、驗證四階段，每階段產生可保存成果。",
-        "涉及電腦檔案、重要專案或人生決策時，要求 agent 對高風險動作先取得確認。"
-      ]
+        "先用小型、可中斷且能產出檔案或報告的任務驗證流程，再投入大型任務。",
+        "要求 agent 先列計畫、分階段執行、回報證據與剩餘工作，不要只給一句『已完成』。",
+        "把額度重置前的工作視為實驗時窗，不把未完成的 agent 輸出當成事實或承諾。"
+      ],
+      "verificationStatus": "partially-verified",
+      "verifiedAt": "2026-08-07T17:49:21+00:00",
+      "coverImage": "assets/public/source-images/2026-08-07-facebook-codex-sol-goal-post.png",
+      "articleUrl": "articles/2026-08-07-facebook-codex-sol-goal-ideas.html"
     }
   ]
 };
