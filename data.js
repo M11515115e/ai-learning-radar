@@ -1,6 +1,6 @@
 window.KNOWLEDGE_RADAR_DATA = {
-  "generatedAt": "2026-08-07T18:45:04+00:00",
-  "count": 3,
+  "generatedAt": "2026-08-07T19:37:54+00:00",
+  "count": 4,
   "notes": [
     {
       "id": "topics/ai-learning-radar-guide.md",
@@ -124,6 +124,42 @@ window.KNOWLEDGE_RADAR_DATA = {
       "verifiedAt": "2026-08-07",
       "coverImage": "assets/public/source-images/2026-08-07-threads-visual-syntax-ugc-cover.jpg",
       "articleUrl": "articles/2026-08-07-threads-visual-syntax-ugc.html"
+    },
+    {
+      "id": "articles/2026-08-07-threads-ecc.md",
+      "title": "Threads｜Claude Code 的 ECC 配置全集與可重現安裝方式",
+      "date": "2026-08-07",
+      "originalUrl": "https://www.threads.com/share/BAWgRnAJsA/",
+      "source": "https://www.threads.com/@prompt_case/post/DT4GbiBFOcx",
+      "author": "prompt_case",
+      "topics": [],
+      "tags": [
+        "Claude Code",
+        "ECC",
+        "agents",
+        "skills",
+        "hooks",
+        "MCP",
+        "開源專案"
+      ],
+      "importance": "high",
+      "status": "unverified",
+      "lowInformation": false,
+      "summary": "這則 Threads 貼文介紹 affaan-m 的 ECC（Everything Claude Code）公開 repository，集中管理 Claude Code 的 agents、skills、commands、hooks、rules 與 MCP 相關配置；repository 與官方安裝方式已確認，但 Anthropic 黑客松冠軍身分與十個月打磨說法仍屬自述。",
+      "keyPoints": [
+        "ECC 是 affaan-m 維護的公開 repository，包含多種 Claude Code 與其他 harness 的配置元件。",
+        "README 提供 npx guided installer、Claude Code plugin 與手動 profile，不應無條件把整個資料夾複製到 ~/.claude/。",
+        "Anthropic 黑客松冠軍、十個月打磨與 battle-tested 屬未獲獨立證實的宣傳性主張。"
+      ],
+      "actionableInsights": [
+        "安裝前先閱讀 README 並選擇單一安裝方法。",
+        "先檢查既有 ~/.claude/，使用 guided、dry-run 或 doctor 類流程避免配置重複。",
+        "只啟用實際需要的 skills、hooks、MCP 與 permissions，先在隔離專案測試。"
+      ],
+      "verificationStatus": "partially-verified",
+      "verifiedAt": "2026-08-07",
+      "coverImage": "assets/public/source-images/2026-08-07-threads-ecc-cover.jpg",
+      "articleUrl": "articles/2026-08-07-threads-ecc.html"
     }
   ]
 };

@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="zh-Hant"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="這則 Threads 貼文介紹 affaan-m 的 ECC（Everything Claude Code）公開 repository，集中管理 Claude Code 的 agents、skills、commands、hooks、rules 與 MCP 相關配置；repository 與官方安裝方式已確認，但 Anthropic 黑客松冠軍身分與十個月打磨說法仍屬自述。"><title>Threads｜Claude Code 的 ECC 配置全集與可重現安裝方式</title>
+<link rel="stylesheet" href="../styles.css"></head><body class="article-page"><div class="article-shell">
+<article class="article-content"><h1>內容摘要</h1>
+<p>這則 Threads 貼文介紹 affaan-m 的 ECC（Everything Claude Code）公開 repository，將 Claude Code 的代理、技能、命令、hooks、規則、記憶與 MCP 相關配置集中管理。貼文把它定位為一套可直接下載的 Claude Code 配置全集，並建議讀者放入 <code>~/.claude/</code>。</p>
+<p>實際查看 GitHub repository 後，ECC 不只是單一 <code>~/.claude/</code> 資料夾複製包，而是一個持續更新的 agent harness／配置系統。README 目前提供 plugin、npm guided installer、手動 profile 與多種 harness adapter，安裝前需要依自己的 Claude Code scope、既有配置及是否使用 hooks 做選擇。</p>
+<h2>可見資訊</h2>
+<ol>
+<li>先閱讀 ECC README 的官方來源與安裝章節。</li>
+<li>優先使用 <code>npx ecc-universal install --guided</code> 或 Claude Code plugin <code>ecc@ecc</code>。</li>
+<li>不要同時疊加 plugin、完整手動安裝與多次同步，避免 skills、commands、hooks 或設定重複。</li>
+<li>安裝前先檢查既有 <code>~/.claude/</code>，並使用 dry-run、doctor 或 setup 類流程確認檔案計畫。</li>
+<li>只選擇實際需要的 profile、language pack、skills 與 hooks；不要因為配置全集很大就全部啟用。</li>
+</ol>
+<h2>資訊查核</h2>
+<h2>已驗證</h2>
+<ul>
+<li><code>https://github.com/affaan-m/ECC</code> 是公開 repository，名稱與作者為 <code>affaan-m/ECC</code>。</li>
+<li>repository README 確實列出 agents、skills、commands、hooks、rules、memory、MCP 與 AgentShield 等功能。</li>
+<li>README 提供 <code>npx ecc-universal install --guided</code>、<code>/plugin install ecc@ecc</code> 及手動安裝路徑。</li>
+<li>Claude Code 官方文件確認 Claude Code 是可讀取程式碼庫、修改檔案、執行命令並整合開發工具的 agentic coding tool。</li>
+</ul>
+<h2>部分支持</h2>
+<p>「把配置複製到 <code>~/.claude/</code> 即可」只適用於部分手動安裝情境。ECC README 現在建議依 harness 與 scope 選擇安裝方式，並警告不要疊加不同安裝方法。</p>
+<h2>尚未確認</h2>
+<ul>
+<li>affaan 的 Anthropic 官方黑客松冠軍身分目前只有 ECC README 的自述支持，尚未找到 Anthropic 官方獨立公告。</li>
+<li>「十個月打磨」與「battle-tested」屬宣傳或作者描述，沒有獨立可重現的品質評測。</li>
+<li>不能從 repository stars、forks 或 Threads 互動數推導軟體品質、安全性或適合所有專案。</li>
+</ul>
+<h1>實際應用情境</h1>
+<ul>
+<li>想把 Claude Code 的 code review、測試、研究、資安檢查與規劃流程模組化。</li>
+<li>團隊需要在多個專案中共享一組可版本控制的 agents、skills 與 rules。</li>
+<li>需要先建立最小配置，再逐步加入 hooks、MCP 與安全掃描，而不是依賴一段大型 system prompt。</li>
+</ul>
+<h1>風險與限制</h1>
+<p>配置集合會改變 Claude Code 的行為、檔案操作與 hooks 執行方式。安裝前應閱讀每個 hook、MCP server、permission 設定與 script，尤其不要在未理解內容時把未知程式直接放入個人 home directory。對既有 <code>~/.claude/</code> 先備份，並使用專案隔離或 dry-run 驗證。</p>
+<h2>來源證據</h2>
+<p>公開證據圖片已經裁切，只保留 repository 標題、描述與上方公開介面；原始圖片另存於 <code>source-archive/public/2026-08-07-threads-ecc-original-og.jpg</code>，不進入公開網站。</p>
+<p>原始 Threads 分享 URL：</p>
+<p><a href="https://www.threads.com/share/BAWgRnAJsA/" target="_blank" rel="noopener noreferrer">https://www.threads.com/share/BAWgRnAJsA/</a></p>
+<p>解析後 canonical URL：</p>
+<p><a href="https://www.threads.com/@prompt_case/post/DT4GbiBFOcx" target="_blank" rel="noopener noreferrer">https://www.threads.com/@prompt_case/post/DT4GbiBFOcx</a></p>
+<h2>參考資料</h2>
+<ul>
+<li><a href="https://github.com/affaan-m/ECC" target="_blank" rel="noopener noreferrer">ECC GitHub repository</a></li>
+<li><a href="https://raw.githubusercontent.com/affaan-m/ECC/main/README.md" target="_blank" rel="noopener noreferrer">ECC README</a></li>
+<li><a href="https://code.claude.com/docs/en/overview" target="_blank" rel="noopener noreferrer">Claude Code 官方文件</a></li>
+</ul></article>
+<aside class="article-side"><a class="back-link" href="../index.html">← 回 AI 學習雷達</a><dl>
+<dt>日期</dt><dd>2026-08-07</dd><dt>來源</dt><dd>https://www.threads.com/@prompt_case/post/DT4GbiBFOcx</dd><dt>作者</dt><dd>prompt_case</dd><dt>查核狀態</dt><dd><span class="verify-badge partially-verified">partially-verified</span></dd><dt>查核時間</dt><dd>2026-08-07</dd></dl>
+<h3>標籤</h3><div class="tags"><span class="tag">Claude Code</span><span class="tag">ECC</span><span class="tag">agents</span><span class="tag">skills</span><span class="tag">hooks</span><span class="tag">MCP</span><span class="tag">開源專案</span></div><h3>相關連結</h3><ul class="reference-list"><li><a href="https://www.threads.com/share/BAWgRnAJsA/" target="_blank" rel="noopener noreferrer">原始來源</a></li><li><a href="https://www.threads.com/@prompt_case/post/DT4GbiBFOcx" target="_blank" rel="noopener noreferrer">原始 Threads 貼文</a></li><li><a href="https://github.com/affaan-m/ECC" target="_blank" rel="noopener noreferrer">ECC GitHub repository</a></li><li><a href="https://code.claude.com/docs/en/overview" target="_blank" rel="noopener noreferrer">Claude Code 官方文件</a></li><li><a href="https://raw.githubusercontent.com/affaan-m/ECC/main/README.md" target="_blank" rel="noopener noreferrer">ECC README</a></li></ul></aside>
+</div><footer><p>AI 學習雷達 · 來源、查核與整理內容分離保存</p></footer></body></html>
