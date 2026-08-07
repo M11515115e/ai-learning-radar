@@ -1,0 +1,35 @@
+{
+  "generatedAt": "2026-08-07T15:50:13+00:00",
+  "count": 1,
+  "notes": [
+    {
+      "id": "topics/ai-learning-radar-guide.md",
+      "title": "AI 學習雷達使用指南",
+      "date": "2026-08-07T20:00:00+08:00",
+      "originalUrl": "",
+      "source": "system",
+      "topics": [
+        "knowledge-management",
+        "ai-learning"
+      ],
+      "tags": [
+        "local-first",
+        "markdown",
+        "workflow"
+      ],
+      "importance": "high",
+      "status": "evergreen",
+      "lowInformation": false,
+      "summary": "以 local-first Markdown 保存 LINE 分享內容，並將明確公開的筆記產生成可搜尋的靜態網站。",
+      "keyPoints": [
+        "Markdown 是主資料來源",
+        "不確定是否公開時預設 private",
+        "公開網站由 public 筆記自動產生"
+      ],
+      "actionableInsights": [
+        "分享連結時可附上用途、重要性或公開性",
+        "每週回顧新內容並補上跨主題連結"
+      ]
+    }
+  ]
+}

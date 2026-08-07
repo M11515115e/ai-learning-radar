@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="AI 學習雷達：可搜尋的 AI、科技、工具與研究知識庫。">
+  <title>AI 學習雷達</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+TC:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="hero">
+    <div class="hero-inner">
+      <div class="eyebrow"><span class="pulse"></span> PERSONAL KNOWLEDGE RADAR</div>
+      <h1>AI 學習雷達</h1>
+      <p>把分散在 LINE 的文章、工具與靈感，整理成持續增長、隨時可搜尋的知識網絡。</p>
+      <div class="stats">
+        <div><strong id="note-count">0</strong><span>公開筆記</span></div>
+        <div><strong id="topic-count">0</strong><span>主題</span></div>
+        <div><strong id="updated-date">—</strong><span>最後更新</span></div>
+      </div>
+    </div>
+  </header>
+  <main>
+    <section class="controls" aria-label="搜尋與篩選">
+      <label class="search-wrap"><span aria-hidden="true">⌕</span><input id="search" type="search" placeholder="搜尋標題、摘要、標籤或重點…" autocomplete="off"></label>
+      <select id="topic-filter" aria-label="主題篩選"><option value="">所有主題</option></select>
+      <select id="importance-filter" aria-label="重要性篩選"><option value="">所有重要性</option><option value="critical">關鍵</option><option value="high">高</option><option value="medium">中</option><option value="low">低</option></select>
+      <select id="sort" aria-label="排序"><option value="newest">最新優先</option><option value="oldest">最舊優先</option><option value="importance">重要性優先</option></select>
+    </section>
+    <section class="result-bar"><span id="result-count">0 筆結果</span><button id="clear-filters" type="button">清除篩選</button></section>
+    <section id="notes" class="notes-grid" aria-live="polite"></section>
+    <section id="empty" class="empty" hidden><div>⌁</div><h2>找不到符合條件的筆記</h2><p>換個關鍵字，或清除篩選條件再試一次。</p></section>
+  </main>
+  <footer><p>Local-first Markdown · 公開網站只收錄 visibility: public 的內容</p></footer>
+  <script src="data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
