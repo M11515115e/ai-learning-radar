@@ -1,7 +1,35 @@
 window.KNOWLEDGE_RADAR_DATA = {
-  "generatedAt": "2026-08-08T01:15:20+00:00",
-  "count": 5,
+  "generatedAt": "2026-08-08T18:23:18+00:00",
+  "count": 6,
   "notes": [
+    {
+      "id": "articles/2026-08-08-threads-soolboyss-skills.md",
+      "title": "Threads｜用 Codex 按工作需求逐步補充 4 個 Skills",
+      "date": "2026-08-08",
+      "originalUrl": "https://www.threads.com/share/_pznmwheb/",
+      "source": "Threads 公開貼文；作者實名不列入公開文章",
+      "author": "soolboyss",
+      "topics": [],
+      "tags": "[Codex, Skills, GitHub, 前端設計, 簡報, 繁體中文寫作, 房仲工具]",
+      "importance": "medium",
+      "status": "partially-verified",
+      "lowInformation": false,
+      "summary": "作者分享以 Codex 建立房仲工具、網站與自動化時，依實際缺口逐步補充 Find Skills、Frontend Design、Guizang PPT Skill 與 Humanizer-zh-TW 四個 GitHub Skills。本文核對 repository 是否存在及 README 可支持的功能，不把個人使用感受視為客觀成效。",
+      "keyPoints": [
+        "貼文列出 Find Skills、Frontend Design、Guizang PPT Skill 與 Humanizer-zh-TW 四個 repository。",
+        "四個 GitHub repository 均可查到；README 可支持的 Codex、Claude Skills、簡報與繁體中文寫作功能各有差異。",
+        "作者的最常用與效果改善屬個人經驗，不能直接視為客觀效能證明。"
+      ],
+      "actionableInsights": [
+        "先按工作需求找能力缺口，再逐一檢查 Skill 的 README、授權、腳本與相依套件。",
+        "安裝多個 Skills 前先確認 Codex 版本、skills 目錄與各 repository 的相容性。",
+        "安裝後列出位置與可用功能，並在隔離專案測試第三方 Skills。"
+      ],
+      "verificationStatus": "partially-verified",
+      "verifiedAt": "2026-08-08",
+      "coverImage": "assets/public/source-images/2026-08-08-threads-soolboyss-skills-cover.webp",
+      "articleUrl": "articles/2026-08-08-threads-soolboyss-skills.html"
+    },
     {
       "id": "topics/ai-learning-radar-guide.md",
       "title": "AI 學習雷達使用指南",
