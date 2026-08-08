@@ -1,6 +1,6 @@
 window.KNOWLEDGE_RADAR_DATA = {
-  "generatedAt": "2026-08-07T19:37:54+00:00",
-  "count": 4,
+  "generatedAt": "2026-08-08T01:15:20+00:00",
+  "count": 5,
   "notes": [
     {
       "id": "topics/ai-learning-radar-guide.md",
@@ -80,6 +80,47 @@ window.KNOWLEDGE_RADAR_DATA = {
       "verifiedAt": "2026-08-07T17:49:21+00:00",
       "coverImage": "assets/public/source-images/2026-08-07-facebook-codex-sol-goal-post.png",
       "articleUrl": "articles/2026-08-07-facebook-codex-sol-goal-ideas.html"
+    },
+    {
+      "id": "articles/2026-08-07-facebook-reel-brand.md",
+      "title": "Facebook Reels｜以 Claude 與視覺工具快速產生品牌廣告素材提案",
+      "date": "2026-08-07",
+      "originalUrl": "https://www.facebook.com/share/r/14XLdkKajV4/?mibextid=wwXIfr",
+      "source": "Facebook Reels",
+      "author": "Christine",
+      "topics": [
+        "Claude",
+        "AI tools",
+        "graphic design",
+        "marketing",
+        "ad creatives"
+      ],
+      "tags": [
+        "品牌廣告",
+        "視覺提案",
+        "prompt",
+        "Stilla",
+        "Bloom",
+        "Claude"
+      ],
+      "importance": "medium",
+      "status": "reviewed",
+      "lowInformation": false,
+      "summary": "這則 Facebook Reels 展示以品牌資料生成六張廣告素材提案的工作流程；公開 metadata 可確認影片文字、作者顯示與 OG 縮圖，但無法從未登入來源確認實際 prompt、完整工具鏈、影片全部內容或廣告成效。",
+      "keyPoints": [
+        "影片描述邀請觀眾留言 BRAND 取得 prompt 與工具連結。",
+        "OG 縮圖展示六張 Stilla／Bloom 介面中的品牌廣告視覺，包括文案、圖片與 Start Free Trial CTA。",
+        "截圖可作為案例展示，但不能單獨證明 Claude 或工具能穩定產生高品質廣告，也不能證明商業轉換效果。"
+      ],
+      "actionableInsights": [
+        "將品牌名稱、受眾、產品利益、語氣、版位與 CTA 統一整理成可重複使用的 prompt brief。",
+        "先生成多個版位變體，再人工檢查品牌用字、版權、產品真實性與廣告規範。",
+        "以點擊率、轉換率、審核通過率與製作時間做 A/B 測試，不把視覺完成度當成成效。"
+      ],
+      "verificationStatus": "partially-verified",
+      "verifiedAt": "2026-08-07",
+      "coverImage": "assets/public/source-images/2026-08-07-facebook-reel-brand-cover.jpg",
+      "articleUrl": "articles/2026-08-07-facebook-reel-brand.html"
     },
     {
       "id": "articles/2026-08-07-threads-visual-syntax-ugc.md",
