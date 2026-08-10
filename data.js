@@ -1,5 +1,5 @@
 window.KNOWLEDGE_RADAR_DATA = {
-  "generatedAt": "2026-08-10T16:34:36+00:00",
+  "generatedAt": "2026-08-10T16:38:11+00:00",
   "count": 10,
   "notes": [
     {
