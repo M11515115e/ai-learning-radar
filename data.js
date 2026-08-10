@@ -1,6 +1,6 @@
 window.KNOWLEDGE_RADAR_DATA = {
-  "generatedAt": "2026-08-08T18:23:18+00:00",
-  "count": 6,
+  "generatedAt": "2026-08-10T16:30:55+00:00",
+  "count": 9,
   "notes": [
     {
       "id": "articles/2026-08-08-threads-soolboyss-skills.md",
@@ -29,6 +29,65 @@ window.KNOWLEDGE_RADAR_DATA = {
       "verifiedAt": "2026-08-08",
       "coverImage": "assets/public/source-images/2026-08-08-threads-soolboyss-skills-cover.webp",
       "articleUrl": "articles/2026-08-08-threads-soolboyss-skills.html"
+    },
+    {
+      "id": "articles/2026-08-08-facebook-openclaw-crawler.md",
+      "title": "Facebook 社團｜Crawl4AI：免雲端 API 金鑰的開源網頁爬蟲",
+      "date": "2026-08-08",
+      "originalUrl": "https://www.facebook.com/share/p/19WYUbajKN/",
+      "source": "https://github.com/unclecode/crawl4ai",
+      "author": "未取得",
+      "topics": [],
+      "tags": "[Crawl4AI, web-crawling, web-scraping, LLM, Firecrawl, OpenClaw, n8n]",
+      "importance": "medium",
+      "status": "partially-verified",
+      "lowInformation": false,
+      "summary": "Facebook 社團貼文介紹 Crawl4AI，將它描述為完全開源、免申請 API 金鑰的 LLM-friendly 網頁爬蟲與 scraper，作為 Firecrawl 免費額度用完後的替代方案。官方 repository 與 README 已確認；免 API 金鑰的說法應限定為本地開源核心，不代表所有網站、雲端服務或受限內容都不需要憑證。",
+      "keyPoints": [
+        "貼文介紹的工具是 unclecode/crawl4ai。",
+        "官方 README 提供 pip 安裝、crawl4ai-setup 與 crawl4ai-doctor，並描述本地開源爬取能力。",
+        "不需要 Crawl4AI 雲端 API key，不代表爬取登入內容、受限網站或使用第三方 LLM 時不需要其他憑證。"
+      ],
+      "actionableInsights": [
+        "先用本地 Crawl4AI 測試公開網頁，再評估是否需要雲端 API、代理或登入 session。",
+        "安裝前檢查 Playwright、Chromium、網站 robots、服務條款與資料授權。",
+        "將抓取結果保存為原始 HTML 與可查核 Markdown，分離 private、public 與 source archive。"
+      ],
+      "verificationStatus": "partially-verified",
+      "verifiedAt": "2026-08-08",
+      "coverImage": "assets/public/source-images/2026-08-08-facebook-openclaw-crawler-cover.jpg",
+      "articleUrl": "articles/2026-08-08-facebook-openclaw-crawler.html"
+    },
+    {
+      "id": "topics/privacy-policy.md",
+      "title": "公開文章與私密證據處理規則",
+      "date": "2026-08-07T20:00:00+08:00",
+      "originalUrl": "",
+      "source": "system",
+      "author": "",
+      "topics": [
+        "privacy"
+      ],
+      "tags": [
+        "private",
+        "policy"
+      ],
+      "importance": "critical",
+      "status": "evergreen",
+      "lowInformation": false,
+      "summary": "不確定是否可公開的內容一律留在本機 private，且不得進入 GitHub Pages。",
+      "keyPoints": [
+        "預設 private",
+        "個資與內部文件不得公開",
+        "建站程式硬性排除 private 與 source-archive"
+      ],
+      "actionableInsights": [
+        "公開前必須有明確 public 標記"
+      ],
+      "verificationStatus": "not-reviewed",
+      "verifiedAt": "",
+      "coverImage": "",
+      "articleUrl": "articles/privacy-policy.html"
     },
     {
       "id": "topics/ai-learning-radar-guide.md",
@@ -193,6 +252,40 @@ window.KNOWLEDGE_RADAR_DATA = {
       "verifiedAt": "2026-08-07",
       "coverImage": "assets/public/source-images/2026-08-07-threads-visual-syntax-ugc-cover.jpg",
       "articleUrl": "articles/2026-08-07-threads-visual-syntax-ugc.html"
+    },
+    {
+      "id": "articles/2026-08-07-facebook-share-1bq9xuguqj.md",
+      "title": "Facebook 分享連結｜目前無法取得公開貼文內容",
+      "date": "2026-08-07",
+      "originalUrl": "https://www.facebook.com/share/p/1Bq9XugUqJ/?mibextid=wwXIfr",
+      "source": "Facebook 分享連結",
+      "author": "未取得",
+      "topics": [
+        "Facebook",
+        "來源擷取"
+      ],
+      "tags": [
+        "login-required",
+        "low-information",
+        "share-url"
+      ],
+      "importance": "low",
+      "status": "low-information",
+      "lowInformation": true,
+      "summary": "Facebook 分享連結可解析到一個 story.php 來源，但一般、mobile 與 mbasic 入口都被導向登入頁；目前無法確認原貼文作者、日期、文字、圖片或主張。",
+      "keyPoints": [
+        "分享 URL 解析到 story_fbid 28404907259101663、頁面 id 100000273051128。",
+        "一般 Facebook、m.facebook.com 與 mbasic.facebook.com 都要求登入。",
+        "未取得足以建立公開證據型文章的正文或媒體資料。"
+      ],
+      "actionableInsights": [
+        "若要繼續查核，需要使用者提供可公開讀取的 canonical 貼文、貼文截圖或原文內容。",
+        "在取得正文前，不應推測主題、作者、日期或查核結論。"
+      ],
+      "verificationStatus": "unverified",
+      "verifiedAt": "2026-08-07",
+      "coverImage": "assets/public/source-images/2026-08-07-facebook-share-unavailable.svg",
+      "articleUrl": "articles/2026-08-07-facebook-share-1bq9xuguqj.html"
     },
     {
       "id": "articles/2026-08-07-threads-ecc.md",
