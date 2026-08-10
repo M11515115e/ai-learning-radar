@@ -2,7 +2,7 @@
 <html lang="zh-Hant"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <meta name="description" content="這則 Threads 貼文介紹 affaan-m 的 ECC（Everything Claude Code）公開 repository，集中管理 Claude Code 的 agents、skills、commands、hooks、rules 與 MCP 相關配置；repository 與官方安裝方式已確認，但 Anthropic 黑客松冠軍身分與十個月打磨說法仍屬自述。"><title>Threads｜Claude Code 的 ECC 配置全集與可重現安裝方式</title>
 <link rel="stylesheet" href="../styles.css"></head><body class="article-page"><div class="article-shell">
-<article class="article-content"><h1>內容摘要</h1>
+<article class="article-content"><figure class="article-cover"><img src="assets/public/source-images/2026-08-07-threads-ecc-cover.jpg" alt="Threads｜Claude Code 的 ECC 配置全集與可重現安裝方式" loading="eager"><figcaption>來源證據或整理封面</figcaption></figure><h1>內容摘要</h1>
 <p>這則 Threads 貼文介紹 affaan-m 的 ECC（Everything Claude Code）公開 repository，將 Claude Code 的代理、技能、命令、hooks、規則、記憶與 MCP 相關配置集中管理。貼文把它定位為一套可直接下載的 Claude Code 配置全集，並建議讀者放入 <code>~/.claude/</code>。</p>
 <p>實際查看 GitHub repository 後，ECC 不只是單一 <code>~/.claude/</code> 資料夾複製包，而是一個持續更新的 agent harness／配置系統。README 目前提供 plugin、npm guided installer、手動 profile 與多種 harness adapter，安裝前需要依自己的 Claude Code scope、既有配置及是否使用 hooks 做選擇。</p>
 <h2>可見資訊</h2>
