@@ -1,7 +1,37 @@
 window.KNOWLEDGE_RADAR_DATA = {
-  "generatedAt": "2026-08-10T18:35:34+00:00",
-  "count": 10,
+  "generatedAt": "2026-08-10T18:43:34+00:00",
+  "count": 11,
   "notes": [
+    {
+      "id": "articles/2026-08-10-threads-ai-triallab-video-workflow.md",
+      "title": "Threads｜AI Trial Lab：用 Claude Code 製作電影解說與短影音的工具構想",
+      "date": "2026-08-10",
+      "originalUrl": "https://www.threads.com/share/_gNAL7yU2/",
+      "source": "Threads",
+      "author": "ai_triallab",
+      "topics": [
+        "AI 工具",
+        "Claude Code",
+        "影音製作",
+        "短影音"
+      ],
+      "tags": [
+        "電影解說",
+        "配音",
+        "字幕",
+        "影片生成"
+      ],
+      "importance": "medium",
+      "status": "partially-verified",
+      "lowInformation": false,
+      "summary": "Threads 貼文介紹一種直接接入 Claude Code 的影音製作工具構想，聲稱可依一句自然語言指令完成解說稿、鏡頭搜尋、配音與成片輸出；貼文同時列出聲音、模板與背景音樂數量，但這些產品規格尚未由官方文件獨立確認。",
+      "keyPoints": [],
+      "actionableInsights": [],
+      "verificationStatus": "partially-verified",
+      "verifiedAt": "2026-08-10",
+      "coverImage": "assets/public/source-images/2026-08-10-threads-ai-triallab-claude-video-cover.png",
+      "articleUrl": "articles/2026-08-10-threads-ai-triallab-video-workflow.html"
+    },
     {
       "id": "articles/2026-08-10-facebook-word-ai-learning.md",
       "title": "Facebook 社團｜用 Gemini Notebook 反轉 Word 文件教學順序",
