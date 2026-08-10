@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-10T18:43:34+00:00",
-  "count": 11,
+  "generatedAt": "2026-08-10T18:47:40+00:00",
+  "count": 12,
   "notes": [
     {
       "id": "articles/2026-08-10-threads-ai-triallab-video-workflow.md",
@@ -31,6 +31,36 @@
       "verifiedAt": "2026-08-10",
       "coverImage": "assets/public/source-images/2026-08-10-threads-ai-triallab-claude-video-cover.png",
       "articleUrl": "articles/2026-08-10-threads-ai-triallab-video-workflow.html"
+    },
+    {
+      "id": "articles/2026-08-10-threads-cloudflare-os.md",
+      "title": "Threads｜Cloudflare OS：把公司知識、Agent 與安全工作區開源",
+      "date": "2026-08-10",
+      "originalUrl": "https://www.threads.com/share/BAYbgr9G07/",
+      "source": "Threads",
+      "author": "akiraxtwo",
+      "topics": [
+        "AI Agent",
+        "企業 AI",
+        "Cloudflare",
+        "開源"
+      ],
+      "tags": [
+        "Cloudflare OS",
+        "Gatekeepers",
+        "Workers",
+        "企業部署"
+      ],
+      "importance": "high",
+      "status": "partially-verified",
+      "lowInformation": false,
+      "summary": "Threads 貼文介紹 Cloudflare 開源的 Cloudflare OS。官方 repository 將它定位為建立在 Cloudflare Workers 上的 AI productivity environment，提供 Agent chat、公司脈絡、可分享的小型應用程式與 Gatekeepers 安全層；社群貼文的核心方向大致獲官方 README 支持，但「Cloudflare OS」並非官方正式產品名稱以外的泛稱，部署與安全能力仍需依早期版本文件實測。",
+      "keyPoints": [],
+      "actionableInsights": [],
+      "verificationStatus": "partially-verified",
+      "verifiedAt": "2026-08-10",
+      "coverImage": "assets/public/source-images/2026-08-10-threads-cloudflare-os-cover.png",
+      "articleUrl": "articles/2026-08-10-threads-cloudflare-os.html"
     },
     {
       "id": "articles/2026-08-10-facebook-word-ai-learning.md",
