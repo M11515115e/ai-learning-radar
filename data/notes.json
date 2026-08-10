@@ -1,7 +1,42 @@
 {
-  "generatedAt": "2026-08-10T16:30:55+00:00",
-  "count": 9,
+  "generatedAt": "2026-08-10T16:34:36+00:00",
+  "count": 10,
   "notes": [
+    {
+      "id": "articles/2026-08-10-facebook-word-ai-learning.md",
+      "title": "Facebook 社團｜用 Gemini Notebook 反轉 Word 文件教學順序",
+      "date": "2026-08-10",
+      "originalUrl": "https://www.facebook.com/share/p/19B9DX4JFz/",
+      "source": "https://www.facebook.com/groups/aixedu/posts/1051544647841255/",
+      "author": "未取得",
+      "topics": [],
+      "tags": [
+        "Gemini Notebook",
+        "Word",
+        "docx",
+        "AI 教學",
+        "文件生成",
+        "教育科技"
+      ],
+      "importance": "medium",
+      "status": "partially-verified",
+      "lowInformation": false,
+      "summary": "這則 Facebook 貼文主張，Word 教學可以從先教操作規則，改為先讓 Gemini Notebook 產生包含目錄、頁碼與階層的 Word 文件，再回頭理解文件結構。配圖展示直接指令與 YAML 兩種生成方式；功能細節仍需依實際帳號、地區與產品版本測試。",
+      "keyPoints": [
+        "貼文將傳統 Word 教學的『先學規則再完成文件』，改成『先產出文件再理解結構』。",
+        "配圖展示 Gemini Notebook 輸出 Word docx、包含目錄與頁碼的流程。",
+        "YAML 範例包含 format: docx、include_toc: true、include_pagenumber: true 與 toc_level: 3。"
+      ],
+      "actionableInsights": [
+        "先讓 AI 產出一份可檢查的文件，再逐項拆解標題階層、分節、頁碼與目錄設定。",
+        "將 AI 生成文件當作教學範例，不取代學生對 Word 文件結構與格式控制的理解。",
+        "實際使用前以自己的 Gemini Notebook 帳號測試 docx 匯出、目錄層級與頁碼是否可編輯。"
+      ],
+      "verificationStatus": "partially-verified",
+      "verifiedAt": "2026-08-10",
+      "coverImage": "assets/public/source-images/2026-08-10-facebook-word-ai-learning-cover.jpg",
+      "articleUrl": "articles/2026-08-10-facebook-word-ai-learning.html"
+    },
     {
       "id": "articles/2026-08-08-threads-soolboyss-skills.md",
       "title": "Threads｜用 Codex 按工作需求逐步補充 4 個 Skills",

@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="zh-Hant"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="這則 Facebook 貼文主張，Word 教學可以從先教操作規則，改為先讓 Gemini Notebook 產生包含目錄、頁碼與階層的 Word 文件，再回頭理解文件結構。配圖展示直接指令與 YAML 兩種生成方式；功能細節仍需依實際帳號、地區與產品版本測試。"><title>Facebook 社團｜用 Gemini Notebook 反轉 Word 文件教學順序</title>
+<link rel="stylesheet" href="../styles.css"></head><body class="article-page"><div class="article-shell">
+<article class="article-content"><h2>可見資訊</h2>
+<p>貼文標題為：</p>
+<p>「AI 不是讓 Word 基本功消失，而是把『學習順序』反過來了」</p>
+<p>貼文文字說明，傳統 Word 教學通常先從大綱模式開始，逐步理解標題階層、分節、頁碼、目錄與文件結構，再完成正式文件。作者主張，使用 Gemini Notebook 後，可以先讓 AI 產出已包含目錄、頁碼與完整階層的文件，再回頭理解文件結構。</p>
+<p>配圖展示以下流程：</p>
+<ol>
+<li>在 Gemini Notebook 中撰寫或整理內容。</li>
+<li>直接指令或 YAML 控制輸出格式。</li>
+<li>產生 Word <code>.docx</code>。</li>
+<li>下載後開啟使用。</li>
+</ol>
+<p>圖中的 YAML 示意包含：</p>
+<p>``<code>yaml format: docx include_toc: true include_pagenumber: true toc_level: 3 </code>``</p>
+<h2>教學上的意義</h2>
+<p>這種方法把 Word 從「先學介面操作」改成「先觀察成品，再拆解結構」。它可能適合用於：</p>
+<p>• 讓學生先觀察標題階層、目錄與頁碼的成品效果。 • 將 AI 生成文件作為格式分析教材。 • 比較 AI 產生的文件與人工調整後的差異。 • 引導學生理解文件結構，而不是只背誦按鈕位置。</p>
+<p>但 AI 產出文件不代表學生已經理解 Word。教學仍應要求學生檢查樣式、分節、目錄更新、頁碼連續性、無障礙結構與內容正確性。</p>
+<h2>資訊查核</h2>
+<div class="table-wrap"><table><thead><tr><th>主張</th><th>結果</th><th>證據與限制</th></tr></thead><tbody>
+<tr><td>貼文主題是以 Gemini Notebook 改變 Word 教學順序</td><td>已確認</td><td>Facebook OG title、description 與配圖一致支持此主題。</td></tr>
+<tr><td>配圖展示 Gemini Notebook 產生 Word docx、目錄與頁碼</td><td>已確認為圖片可見內容</td><td>只能證明配圖呈現此流程，不等於已獨立驗證產品目前對所有帳號提供該功能。</td></tr>
+<tr><td>YAML 欄位可控制 docx、目錄、頁碼與目錄層級</td><td>未能獨立驗證</td><td>欄位出現在貼文配圖；尚未取得 Google 官方文件逐項確認這些欄位是正式公開介面。</td></tr>
+<tr><td>這個流程適用所有 Gemini Notebook 使用者</td><td>無法確認</td><td>功能可能受產品版本、地區、帳號、介面更新與實驗功能影響。</td></tr>
+<tr><td>AI 會讓 Word 基本功消失</td><td>不支持／屬推論</td><td>貼文標題本身否定此結論；文件結構、格式檢查與編輯能力仍需要人工理解。</td></tr>
+</tbody></table></div>
+<h2>來源證據</h2>
+<p>原始 Facebook OG metadata 與配圖已保存；公開文章只包含不含作者個資的內容摘要、流程圖與查核限制。</p>
+<ul>
+<li>原始文字封存：<code>/opt/data/user-notes/knowledge-base/source-archive/public/2026-08-10-facebook-word-ai-learning.txt</code></li>
+<li>原始圖片封存：<code>/opt/data/user-notes/knowledge-base/source-archive/public/2026-08-10-facebook-word-ai-learning-original.png</code></li>
+<li>公開證據圖：<code>/opt/data/user-notes/knowledge-base/assets/public/source-images/2026-08-10-facebook-word-ai-learning-cover.jpg</code></li>
+<li>擷取時間：2026-08-10</li>
+<li>隱私處理：未取得作者姓名與留言資料；公開圖片未見明顯個資。</li>
+</ul>
+<h2>限制</h2>
+<ul>
+<li>Facebook 頁面出現登入遮罩，未取得完整正文、留言、作者或絕對發布日期。</li>
+<li>OG description 在「完整階層的……」處截斷，後續原文無法確認。</li>
+<li>尚未以實際 Gemini Notebook 帳號執行 docx 匯出測試。</li>
+<li>YAML 欄位是配圖示意，不應直接當成已確認的官方 API 或穩定功能。</li>
+<li>產生 Word 文件可能仍需人工校對內容、格式、引用、頁碼與目錄。</li>
+</ul>
+<h2>參考資料</h2>
+<ul>
+<li><a href="https://www.facebook.com/groups/aixedu/posts/1051544647841255/" target="_blank" rel="noopener noreferrer">Facebook 原始貼文</a></li>
+<li><a href="https://support.google.com/notebooklm/" target="_blank" rel="noopener noreferrer">Google NotebookLM 官方說明</a></li>
+<li><a href="https://support.microsoft.com/word" target="_blank" rel="noopener noreferrer">Microsoft Word 官方支援</a></li>
+</ul></article>
+<aside class="article-side"><a class="back-link" href="../index.html">← 回 AI 學習雷達</a><dl>
+<dt>日期</dt><dd>2026-08-10</dd><dt>來源</dt><dd>https://www.facebook.com/groups/aixedu/posts/1051544647841255/</dd><dt>作者</dt><dd>未取得</dd><dt>查核狀態</dt><dd><span class="verify-badge partially-verified">partially-verified</span></dd><dt>查核時間</dt><dd>2026-08-10</dd></dl>
+<h3>標籤</h3><div class="tags"><span class="tag">Gemini Notebook</span><span class="tag">Word</span><span class="tag">docx</span><span class="tag">AI 教學</span><span class="tag">文件生成</span><span class="tag">教育科技</span></div><h3>相關連結</h3><ul class="reference-list"><li><a href="https://www.facebook.com/share/p/19B9DX4JFz/" target="_blank" rel="noopener noreferrer">原始來源</a></li><li><a href="https://www.facebook.com/groups/aixedu/posts/1051544647841255/" target="_blank" rel="noopener noreferrer">Facebook 原始貼文</a></li><li><a href="https://support.google.com/notebooklm/" target="_blank" rel="noopener noreferrer">Google NotebookLM 官方說明</a></li><li><a href="https://support.microsoft.com/word" target="_blank" rel="noopener noreferrer">Microsoft Word 官方支援</a></li></ul></aside>
+</div><footer><p>AI 學習雷達 · 來源、查核與整理內容分離保存</p></footer></body></html>
