@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-10T18:50:27+00:00",
-  "count": 12,
+  "generatedAt": "2026-08-10T19:00:51+00:00",
+  "count": 13,
   "notes": [
     {
       "id": "articles/2026-08-10-threads-ai-triallab-video-workflow.md",
@@ -61,6 +61,36 @@
       "verifiedAt": "2026-08-10",
       "coverImage": "assets/public/source-images/2026-08-10-threads-cloudflare-os-cover.png",
       "articleUrl": "articles/2026-08-10-threads-cloudflare-os.html"
+    },
+    {
+      "id": "articles/2026-08-10-threads-zoomit-mac.md",
+      "title": "Threads｜Microsoft ZoomIt 正式推出 macOS 版本",
+      "date": "2026-08-10",
+      "originalUrl": "https://www.threads.com/share/BALOVrHjsD/",
+      "source": "Threads",
+      "author": "akiraxtwo",
+      "topics": [
+        "macOS",
+        "生產力工具",
+        "簡報工具",
+        "Microsoft"
+      ],
+      "tags": [
+        "ZoomIt",
+        "OCR",
+        "螢幕錄影",
+        "Homebrew"
+      ],
+      "importance": "medium",
+      "status": "verified",
+      "lowInformation": false,
+      "summary": "Threads 貼文介紹 Microsoft Sysinternals ZoomIt 的 macOS 版本。Microsoft 官方 ZoomitForMac repository 已確認它提供螢幕縮放、即時縮放、畫筆與文字註解、截圖、OCR、螢幕錄影、攝影機子母畫面與捲動全景截圖，並提供 Homebrew 安裝方式。",
+      "keyPoints": [],
+      "actionableInsights": [],
+      "verificationStatus": "verified",
+      "verifiedAt": "2026-08-10",
+      "coverImage": "assets/public/source-images/2026-08-10-threads-zoomit-mac-cover.png",
+      "articleUrl": "articles/2026-08-10-threads-zoomit-mac.html"
     },
     {
       "id": "articles/2026-08-10-facebook-word-ai-learning.md",
