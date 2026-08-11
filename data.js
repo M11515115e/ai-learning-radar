@@ -1,7 +1,38 @@
 window.KNOWLEDGE_RADAR_DATA = {
-  "generatedAt": "2026-08-11T02:26:52+00:00",
-  "count": 14,
+  "generatedAt": "2026-08-11T14:35:42+00:00",
+  "count": 15,
   "notes": [
+    {
+      "id": "articles/2026-08-11-github-xiaoma-durex-copywriter.md",
+      "title": "GitHub｜xiaoma-durex-copywriter：用雙層語義與留白設計文案與海報",
+      "date": "2026-08-11",
+      "originalUrl": "https://github.com/crawfordxx/xiaoma-durex-copywriter",
+      "source": "GitHub repository",
+      "author": "crawfordxx",
+      "topics": [
+        "Claude Code",
+        "文案",
+        "視覺設計",
+        "創意工具"
+      ],
+      "tags": [
+        "copywriting",
+        "poster",
+        "Claude Code Skill",
+        "雙層語義",
+        "AI 出圖"
+      ],
+      "importance": "high",
+      "status": "partially-verified",
+      "lowInformation": false,
+      "summary": "xiaoma-durex-copywriter 是一個 Claude Code／Claude.ai Skill，將杜蕾斯 2011–2017 黃金期的雙層語義與留白方法整理成互動式文案流程、8 個文案公式、視覺系統，以及 AI 生成靜物圖加程式排版的製作管線。",
+      "keyPoints": [],
+      "actionableInsights": [],
+      "verificationStatus": "partially-verified",
+      "verifiedAt": "2026-08-11",
+      "coverImage": "assets/public/source-images/2026-08-10-github-xiaoma-durex-copywriter-cover.png",
+      "articleUrl": "articles/2026-08-11-github-xiaoma-durex-copywriter.html"
+    },
     {
       "id": "articles/2026-08-10-threads-ai-triallab-video-workflow.md",
       "title": "Threads｜AI Trial Lab：用 Claude Code 製作電影解說與短影音的工具構想",
