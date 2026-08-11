@@ -1,6 +1,6 @@
 window.KNOWLEDGE_RADAR_DATA = {
-  "generatedAt": "2026-08-10T19:00:51+00:00",
-  "count": 13,
+  "generatedAt": "2026-08-11T02:26:52+00:00",
+  "count": 14,
   "notes": [
     {
       "id": "articles/2026-08-10-threads-ai-triallab-video-workflow.md",
@@ -91,6 +91,36 @@ window.KNOWLEDGE_RADAR_DATA = {
       "verifiedAt": "2026-08-10",
       "coverImage": "assets/public/source-images/2026-08-10-threads-zoomit-mac-cover.png",
       "articleUrl": "articles/2026-08-10-threads-zoomit-mac.html"
+    },
+    {
+      "id": "articles/2026-08-10-threads-marketing-agent-yoast.md",
+      "title": "Threads｜從 Yoast SEO 外掛想到 Marketing Agent 的產品機會",
+      "date": "2026-08-10",
+      "originalUrl": "https://www.threads.com/share/_wuboWhEt/",
+      "source": "Threads",
+      "author": "jardini",
+      "topics": [
+        "AI Agent",
+        "行銷自動化",
+        "WordPress",
+        "SEO"
+      ],
+      "tags": [
+        "Marketing Agent",
+        "Yoast SEO",
+        "Claude Code",
+        "產品機會"
+      ],
+      "importance": "high",
+      "status": "partially-verified",
+      "lowInformation": false,
+      "summary": "Threads 貼文從 Marketing Agent 的自動化閉環談到產品機會：把既有 WordPress SEO 外掛的建議轉成可執行任務，再透過 Claude Code 產生內容或修正網站。Yoast 的 SEO 建議與內容最佳化定位可由官方頁面支持，但貼文提到的 Podcast、安裝數字、寄生式外掛與商業模式尚未獲完整第一方資料確認。",
+      "keyPoints": [],
+      "actionableInsights": [],
+      "verificationStatus": "partially-verified",
+      "verifiedAt": "2026-08-10",
+      "coverImage": "assets/public/source-images/2026-08-10-threads-marketing-agent-yoast-cover.png",
+      "articleUrl": "articles/2026-08-10-threads-marketing-agent-yoast.html"
     },
     {
       "id": "articles/2026-08-10-facebook-word-ai-learning.md",
