@@ -1,7 +1,51 @@
 window.KNOWLEDGE_RADAR_DATA = {
-  "generatedAt": "2026-08-11T14:35:42+00:00",
-  "count": 15,
+  "generatedAt": "2026-08-15T12:03:31+00:00",
+  "count": 16,
   "notes": [
+    {
+      "id": "weekly-digests/weekly-digest-2026-08-15.md",
+      "title": "AI 學習雷達公開週摘要｜2026-08-15",
+      "date": "2026-08-15T20:00:00+08:00",
+      "originalUrl": "",
+      "source": "AI 學習雷達公開筆記",
+      "author": "AI 學習雷達",
+      "topics": [
+        "AI Agent",
+        "Claude Code",
+        "Codex",
+        "內容創作",
+        "企業 AI",
+        "生產力"
+      ],
+      "tags": [
+        "weekly-digest",
+        "公開回顧",
+        "工作流",
+        "查核",
+        "權限治理"
+      ],
+      "importance": "high",
+      "status": "reviewed",
+      "lowInformation": false,
+      "summary": "2026-08-09 至 2026-08-15 的公開筆記呈現四條主線：Agent 治理、Claude Code／Codex 擴充、可重複的 AI 內容工作流，以及社群來源的證據查核。",
+      "keyPoints": [
+        "本週公開範圍共有 15 份符合期間條件的筆記，主要集中於 2026-08-10 至 2026-08-11 歸檔的外部來源與既有公開指南。",
+        "Cloudflare OS、Marketing Agent、Crawl4AI 與影音工作流共同指向資料、工具、權限、審核與驗證組成的 Agent 閉環。",
+        "ECC、Skills、/goal 與文案 Skill 顯示擴充 agent 時應先確認來源、授權、相依套件、版本與隔離測試。",
+        "AI UGC、品牌廣告與文案 Skill 顯示內容品質需要鎖定欄位、程式排版、人工審核、授權檢查與成效測試。",
+        "多數社群來源僅部分查核；官方文件、來源畫面、作者主張與整理者建議必須分開。"
+      ],
+      "actionableInsights": [
+        "選一個非敏感小專案實作讀取、草稿或 diff、人審、寫回、驗證與回滾的最小 Agent 閉環。",
+        "盤點 Claude Code／Codex Skills、hooks 與 MCP 的來源、授權、版本、權限與隔離測試結果。",
+        "建立內容發布前檢查表，涵蓋品牌一致性、文字排版、事實、授權、個資、CTA 與成效指標。",
+        "下週優先做一個可重現的工具實測，保留輸入、輸出、錯誤與判定依據，不只再蒐集工具名稱。"
+      ],
+      "verificationStatus": "partially-verified",
+      "verifiedAt": "2026-08-15",
+      "coverImage": "",
+      "articleUrl": "articles/weekly-digest-2026-08-15.html"
+    },
     {
       "id": "articles/2026-08-11-github-xiaoma-durex-copywriter.md",
       "title": "GitHub｜xiaoma-durex-copywriter：用雙層語義與留白設計文案與海報",
